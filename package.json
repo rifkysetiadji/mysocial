@@ -1,0 +1,20 @@
+{
+  "name": "mysocial",
+  "version": "1.0.0",
+  "description": "All about social here",
+  "main": "server.js",
+  "scripts": {
+    "watch":"nodemon server.js"
+  },
+  "author": "Rifky Setiadji",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14",
+    "nodemon": "^1.18.4"
+  }
+}
